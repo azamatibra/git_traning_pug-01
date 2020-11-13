@@ -4,6 +4,7 @@ img/**/thumb.db
 img/**/Thumb.db
 css/
 *.psd
+*.jpg
 
 package-lock.json
 
