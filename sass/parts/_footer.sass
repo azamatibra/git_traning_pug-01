@@ -1,0 +1,101 @@
+.footer
+  position: relative
+  background-color: #fbfbfb
+  color: #575757
+  font-size: rem(15px)
+  h2
+    margin-top: 0
+  &__container
+    position: relative
+    padding: rem(135px) 1rem
+    display: flex
+    justify-content: space-between
+    @media (max-width: 1000px)
+      flex-direction: column
+      align-items: center
+      text-align: center
+    @media (max-width: 480px)
+      padding: rem(80px) 1rem
+  @media (max-width: 1000px)
+    &__info, &__resource, &__company
+      margin-bottom: rem(50px) 
+  &__title
+    margin-bottom: rem(50px)
+    @media (max-width: 1000px)
+      margin-bottom: rem(30px)
+  &__logo
+    margin-bottom: rem(50px)
+    @media (max-width: 480px)
+      margin-bottom: rem(30px)
+  &__social
+    &-title
+      font-size: rem(24px)
+      font-weight: 700
+      margin-bottom: rem(20px)
+  &__list
+    display: flex
+    padding: 0
+    margin: 0
+    list-style-type: none
+    @media (max-width: 1000px)
+      justify-content: center
+  &__item
+    margin-right: rem(10px)
+    &:last-child
+      margin-right: 0
+  &__nav
+    display: flex
+    flex-direction: column
+  &__desc
+    line-height: 1.5
+    max-width: 320px
+    margin-bottom: rem(25px)
+  &__link
+    color: #575757
+    text-decoration: none
+    margin-bottom: rem(20px)
+    &:last-child
+      margin-bottom: 0
+  &__news
+    &-text
+      display: inline-block
+      margin-bottom: rem(20px)
+      line-height: 1.2
+    &-group
+      padding: 0
+      display: flex
+      justify-content: space-between
+      border-radius: 30px
+      border: 1px solid #d8d8d8
+      overflow: hidden
+      @media (max-width: 320px)
+        flex-direction: column
+    &-input
+      padding: rem(20px) rem(25px)
+      border: none
+      outline: none
+      flex: 2
+    &-send
+      display: flex
+      align-items: center
+      padding: rem(20px) rem(35px)
+      background-color: $accent_color
+      @media (max-width: 320px)
+        justify-content: center
+  &__adv
+    overflow: hidden
+    text-align: center
+    background-color: $accent_color
+    font-size: rem(16px)
+    color: #ffffff
+    text-transform: uppercase
+    line-height: 1.2
+    &--bold
+      font-weight: 700
+#upbutton
+  position: absolute
+  top: -40px
+  right: 0
+  height: 80px
+  overflow: hidden
+  z-index: 2
