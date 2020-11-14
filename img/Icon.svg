@@ -1,0 +1,43 @@
+<svg id="Icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="160" height="160" viewBox="0 0 160 160">
+  <defs>
+    <style>
+      .cls-1, .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-1 {
+        stroke: #fff;
+        stroke-linejoin: round;
+        stroke-width: 15px;
+        filter: url(#filter);
+      }
+
+      .cls-2 {
+        fill: #24c657;
+      }
+
+      .cls-3 {
+        fill-rule: evenodd;
+      }
+    </style>
+    <filter id="filter" x="-7.5" y="-7.5" width="175" height="175" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="5.477"/>
+      <feFlood result="flood" flood-opacity="0.25"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+      <feGaussianBlur result="blur-2" stdDeviation="2.236" in="SourceAlpha"/>
+      <feFlood result="flood-2" flood-color="#010202" flood-opacity="0.15"/>
+      <feComposite result="composite-2" operator="out" in2="blur-2"/>
+      <feOffset result="offset-2"/>
+      <feComposite result="composite-3" operator="in" in2="SourceAlpha"/>
+      <feBlend result="blend-2" in2="blend"/>
+    </filter>
+  </defs>
+  <g style="fill: #fff; filter: url(#filter)">
+    <circle id="Background" class="cls-1" cx="79.5" cy="79.5" r="58" style="stroke: inherit; filter: none; fill: inherit"/>
+  </g>
+  <use xlink:href="#Background" style="stroke: #fff; filter: none; fill: none"/>
+  <circle id="Icon_Bg" data-name="Icon Bg" class="cls-2" cx="80" cy="80" r="42.5"/>
+  <path id="Edit_Icon" data-name="Edit Icon" class="cls-3" d="M505.033,1260.16l1.66,10.88-1.049,12.26a0.648,0.648,0,0,0,.162.49,0.633,0.633,0,0,0,.462.21h9.222a0.628,0.628,0,0,0,.459-0.21,0.635,0.635,0,0,0,.165-0.48l-0.873-12.01a0.618,0.618,0,0,0,.054-0.18l1.671-10.96a0.666,0.666,0,0,0-.059-0.39l-5.347-10.96a0.616,0.616,0,0,0-1.121,0l-5.347,10.96A0.674,0.674,0,0,0,505.033,1260.16Zm1.919,22.55,0.946-11.04h6.113l0.8,11.04h-7.862ZM511,1261.39a1.756,1.756,0,1,1-1.713,1.75A1.731,1.731,0,0,1,511,1261.39Zm-0.627-9.57v8.35a3.036,3.036,0,0,0-2.339,2.97,2.967,2.967,0,1,0,5.932,0,3.036,3.036,0,0,0-2.339-2.97v-8.35l4.07,8.34-1.557,10.22h-6.28l-1.557-10.22Zm-11.739-3.11h3.342a0.635,0.635,0,0,0,.627-0.64V1247H519.4v1.07a0.635,0.635,0,0,0,.626.64h3.342a0.636,0.636,0,0,0,.627-0.64v-3.43a0.635,0.635,0,0,0-.627-0.64h-3.342a0.635,0.635,0,0,0-.626.64v1.07H502.6v-1.07a0.635,0.635,0,0,0-.627-0.64h-3.342a0.635,0.635,0,0,0-.626.64v3.43A0.635,0.635,0,0,0,498.634,1248.71Zm22.016-3.43h2.089v2.15H520.65v-2.15Zm-21.389,0h2.089v2.15h-2.089v-2.15Zm-3.634,18.85a0.635,0.635,0,0,0,.626-0.64,14.751,14.751,0,1,1,29.493,0,0.627,0.627,0,1,0,1.254,0,16.005,16.005,0,1,0-32,0A0.635,0.635,0,0,0,495.627,1264.13Z" transform="translate(-430.5 -1183.5)"/>
+</svg>
