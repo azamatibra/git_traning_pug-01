@@ -1,0 +1,43 @@
+<svg id="Группа_1" data-name="Группа 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="160" height="160" viewBox="0 0 160 160">
+  <defs>
+    <style>
+      .cls-1, .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-1 {
+        stroke: #fff;
+        stroke-linejoin: round;
+        stroke-width: 15px;
+        filter: url(#filter);
+      }
+
+      .cls-2 {
+        fill: #ff9d46;
+      }
+
+      .cls-3 {
+        fill-rule: evenodd;
+      }
+    </style>
+    <filter id="filter" x="-7.5" y="-7.5" width="175" height="175" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="5.477"/>
+      <feFlood result="flood" flood-opacity="0.25"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+      <feGaussianBlur result="blur-2" stdDeviation="2.236" in="SourceAlpha"/>
+      <feFlood result="flood-2" flood-color="#010202" flood-opacity="0.15"/>
+      <feComposite result="composite-2" operator="out" in2="blur-2"/>
+      <feOffset result="offset-2"/>
+      <feComposite result="composite-3" operator="in" in2="SourceAlpha"/>
+      <feBlend result="blend-2" in2="blend"/>
+    </filter>
+  </defs>
+  <g style="fill: #fff; filter: url(#filter)">
+    <circle id="Background" class="cls-1" cx="79.5" cy="79.5" r="58" style="stroke: inherit; filter: none; fill: inherit"/>
+  </g>
+  <use xlink:href="#Background" style="stroke: #fff; filter: none; fill: none"/>
+  <circle id="Icon_Bg" data-name="Icon Bg" class="cls-2" cx="80" cy="80" r="42.5"/>
+  <path id="Branding_Icon" data-name="Branding Icon" class="cls-3" d="M1435,1262.5a2.8,2.8,0,0,0-1.53-2.51l-3.73-1.88,3.73-1.88h0a2.824,2.824,0,0,0,0-5.02l-21.02-10.63a5.423,5.423,0,0,0-4.9,0l-21.02,10.63a2.824,2.824,0,0,0,0,5.02l3.73,1.88-3.73,1.88a2.824,2.824,0,0,0,0,5.02l3.73,1.88-3.73,1.88a2.824,2.824,0,0,0,0,5.02l21.02,10.63a5.465,5.465,0,0,0,4.9,0l21.02-10.63a2.824,2.824,0,0,0,0-5.02l-3.73-1.88,3.73-1.88A2.8,2.8,0,0,0,1435,1262.5Zm-47.44-8.35a0.462,0.462,0,0,1-.26-0.43,0.453,0.453,0,0,1,.26-0.43l21.02-10.63a3.135,3.135,0,0,1,2.84,0l21.02,10.63a0.453,0.453,0,0,1,.26.43,0.462,0.462,0,0,1-.26.43l-21.02,10.62a3.156,3.156,0,0,1-2.84,0Zm44.88,16.7a0.486,0.486,0,0,1,0,.86l-21.02,10.63a3.156,3.156,0,0,1-2.84,0l-21.02-10.63a0.486,0.486,0,0,1,0-.86l5.27-2.66,14.72,7.45a5.465,5.465,0,0,0,4.9,0l14.72-7.45Zm0-7.92-21.02,10.63a3.156,3.156,0,0,1-2.84,0l-21.02-10.63a0.486,0.486,0,0,1,0-.86l5.27-2.66,14.72,7.44a5.382,5.382,0,0,0,4.9,0l14.72-7.44,5.27,2.66A0.486,0.486,0,0,1,1432.44,1262.93Z" transform="translate(-1330.5 -1183.5)"/>
+</svg>

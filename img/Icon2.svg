@@ -1,0 +1,43 @@
+<svg id="Icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="160" height="160" viewBox="0 0 160 160">
+  <defs>
+    <style>
+      .cls-1, .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-1 {
+        stroke: #fff;
+        stroke-linejoin: round;
+        stroke-width: 15px;
+        filter: url(#filter);
+      }
+
+      .cls-2 {
+        fill: #00cff1;
+      }
+
+      .cls-3 {
+        fill-rule: evenodd;
+      }
+    </style>
+    <filter id="filter" x="-7.5" y="-7.5" width="175" height="175" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="5.477"/>
+      <feFlood result="flood" flood-opacity="0.25"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+      <feGaussianBlur result="blur-2" stdDeviation="2.236" in="SourceAlpha"/>
+      <feFlood result="flood-2" flood-color="#010202" flood-opacity="0.15"/>
+      <feComposite result="composite-2" operator="out" in2="blur-2"/>
+      <feOffset result="offset-2"/>
+      <feComposite result="composite-3" operator="in" in2="SourceAlpha"/>
+      <feBlend result="blend-2" in2="blend"/>
+    </filter>
+  </defs>
+  <g style="fill: #fff; filter: url(#filter)">
+    <circle id="Background" class="cls-1" cx="79.5" cy="79.5" r="58" style="stroke: inherit; filter: none; fill: inherit"/>
+  </g>
+  <use xlink:href="#Background" style="stroke: #fff; filter: none; fill: none"/>
+  <circle id="Icon_Bg" data-name="Icon Bg" class="cls-2" cx="80" cy="80" r="42.5"/>
+  <path id="User_Friendly" data-name="User Friendly" class="cls-3" d="M835,1250.67h-3.31v-3.34h-3.311V1244H793.621v3.33H790.31v3.34H787v26.66h3.31v3.34h3.311V1284h34.758v-3.33h3.311v-3.34H835v-26.66Zm-46.345,25v-23.34h1.655v23.34h-1.655Zm3.31,3.33v-30h1.656v30h-1.656Zm34.759,3.33H795.276v-36.66h31.448v36.66Zm3.31-3.33h-1.655v-30h1.655v30Zm3.311-3.33H831.69v-23.34h1.655v23.34Z" transform="translate(-730.5 -1183.5)"/>
+</svg>

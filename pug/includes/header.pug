@@ -1,1 +1,38 @@
 header.header
+  .container.header__container
+    .header__menu
+      a(href="#").logo.header__logo
+        img(src="img/logo.svg", alt="logo")
+      button.hamburger.hamburger--spring
+        span.hamburger-box
+          span.hamburger-inner
+      nav.header__nav
+        a(href="#").header__link Home
+        a(href="#").header__link Feature
+        a(href="#").header__link Pricing
+        a(href="#").header__link Team
+        a(href="#").header__link Blog
+        a(href="#").header__link Contact
+        button.btn.header__btn Get the App
+    .header__hero
+      .header__info 
+        h2.header__title 
+          b.header__title--blue App
+          span.header__title--blue nest 
+          b.header__title--mobile Best Mobile 
+          | App Landing Page
+        p.header__desc Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        .header__buttons
+          button.header__app.header__app--green
+            .header__app-hero
+              img(src="img/Apple.svg", alt="apple") 
+              .header__company Download from
+                span.header__store Apple Store
+          button.header__app.header__app--border
+            .header__app-hero
+              img(src="img/Play_store.svg", alt="apple")
+              .header__company Download from
+                span.header__store Play Store
+      .header__phone 
+        img(src="img/iphone.png", alt="phone")
+    
